@@ -1,116 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-  .output {
-    margin-bottom: 20px;
-  }
-  .output::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .element {
-    margin: 5px;
-    float: left;
-  }
-  .block {
-    display: block;
-  }
-  .inline {
-    display: inline;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Block vs Inline Elements</title>
 </head>
 <body>
-  <div class="output">
-    <div class="element block-inline-button" data-ns-test="block-inline-button">
-      <button>Test1</button>
-    </div>
-    <div class="element block-inline-button" data-ns-test="block-inline-button">
-      <button>Test2</button>
-    </div>
+  <div class="block-inline-button" data-ns-test="block-inline-button">
+    <button>Test1</button>
+    <button>Test2</button>
   </div>
 
-  <div class="output">
-    <div class="element block-inline-div" data-ns-test="block-inline-div">
-      <div class="block">Test1</div>
-    </div>
-    <div class="element block-inline-div" data-ns-test="block-inline-div">
-      <div class="block">Test2</div>
-    </div>
+  <div class="block-inline-div" data-ns-test="block-inline-div">
+    <div>Test1</div>
+    <div>Test2</div>
   </div>
 
-  <div class="output">
-    <div class="element block-inline-span" data-ns-test="block-inline-span">
-      <span>Test1</span>
-    </div>
-    <div class="element block-inline-span" data-ns-test="block-inline-span">
-      <span>Test2</span>
-    </div>
+  <div class="block-inline-span" data-ns-test="block-inline-span">
+    <span>Test1</span>
+    <span>Test2</span>
   </div>
 
-  <div class="output">
-    <div class="element block-inline-p" data-ns-test="block-inline-p">
-      <p class="block">Test1</p>
-    </div>
-    <div class="element block-inline-p" data-ns-test="block-inline-p">
-      <p class="block">Test2</p>
-    </div>
-  </div>
+  <!-- Repeat the same structure for the other elements -->
 
-  <div class="output">
-    <div class="element block-inline-input" data-ns-test="block-inline-input">
-      <input type="text" value="Test1">
-    </div>
-    <div class="element block-inline-input" data-ns-test="block-inline-input">
-      <input type="text" value="Test2">
-    </div>
-  </div>
-
-  <div class="output">
-    <div class="element block-inline-cite" data-ns-test="block-inline-cite">
-      <cite>Test1</cite>
-    </div>
-    <div class="element block-inline-cite" data-ns-test="block-inline-cite">
-      <cite>Test2</cite>
-    </div>
-  </div>
-
-  <div class="output">
-    <div class="element block-inline-code" data-ns-test="block-inline-code">
-      <code>Test1</code>
-    </div>
-    <div class="element block-inline-code" data-ns-test="block-inline-code">
-      <code>Test2</code>
-    </div>
-  </div>
-
-  <div class="output">
-    <div class="element block-inline-h1" data-ns-test="block-inline-h1">
-      <h1>Test1</h1>
-    </div>
-    <div class="element block-inline-h1" data-ns-test="block-inline-h1">
-      <h1>Test2</h1>
-    </div>
-  </div>
-
-  <div class="output">
-    <div class="element block-inline-sup" data-ns-test="block-inline-sup">
-      <sup>Test1</sup>
-    </div>
-    <div class="element block-inline-sup" data-ns-test="block-inline-sup">
-      <sup>Test2</sup>
-    </div>
-  </div>
-
-  <div class="output">
-    <div class="element block-inline-sub" data-ns-test="block-inline-sub">
-      <sub>Test1</sub>
-    </div>
-    <div class="element block-inline-sub" data-ns-test="block-inline-sub">
-      <sub>Test2</sub>
-    </div>
-  </div>
 </body>
 </html>

@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+/* Apply styles to block elements */
+.block-inline-div {
+  display: block;
+}
+
+.block-inline-p {
+  display: block;
+}
+
+.block-inline-h1 {
+  display: block;
+}
+
+/* Apply styles to inline elements */
+.block-inline-button button,
+.block-inline-span span,
+.block-inline-input input,
+.block-inline-cite,
+.block-inline-code,
+.block-inline-sup,
+.block-inline-sub {
+  display: inline;
+}
